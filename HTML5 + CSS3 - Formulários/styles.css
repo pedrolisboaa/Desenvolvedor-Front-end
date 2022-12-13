@@ -33,3 +33,22 @@
     background-color: #36a758;
     transition: .6s;
 }
+
+.name-mail{
+    display: flex;
+    align-items: center;
+    background-color: #bababa;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.name-mail img{
+    width: 30px;
+    height: 30px;
+}
+
+/*
+.form-user input[type=email]{
+    
+}
+*/

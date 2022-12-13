@@ -1,0 +1,20 @@
+.lista_ordenada{
+    list-style: decimal;
+}
+
+.lista_nao_ordenada{
+    list-style: url('../img/circle.png');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    background-color: rgb(204, 136, 136);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}

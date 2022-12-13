@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form action="./login.html" method="get" target="_blank">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" pattern="[a-zA-Z]{2,120}" minlength="2" maxlength="120" required>
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx">
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <hr>
+
+    <form action="">
+        <fieldset>
+            <legend>Textarea</legend>
+            <label for="comentario">Deixei seu comentário</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>FILE</legend>
+            <label for="arquivo">Selecione um arquivo</label>
+            <br>
+            <input type="file" name="arquivo" id="arquivo" multiple accept=".pdf" >
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Check Box</legend>
+            <label for="amarela">Amarela</label>
+            <input type="checkbox" name="amarela" id="amarela" checked>
+            <br>
+
+            <label for="azul">Azul</label>
+            <input type="checkbox" name="azul" id="azul">
+
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Radio Button</legend>
+            <input type="radio" name="cores" id="amarela">
+            <label for="amarela">Amarela</label>
+            <input type="radio" name="cores" id="azul">
+            <label for="azul">Azul</label>
+            <input type="radio" name="cores" id="vermelho">
+            <label for="vermelho">Vermelho</label>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>Color</legend>
+            <label for="">Selecione uma cor</label><br>
+            <input type="color" name="" id="">
+            
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+table, td, th{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+td, th{
+    width: 150px;
+    text-align: center;
+}
+
+th{
+    background-color: aquamarine;
+}
+
+td{
+    background-color: bisque;
+}
+
+
+.tabela_semana{
+    width: 100%;
+}
+
